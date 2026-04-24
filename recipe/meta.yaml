@@ -1,5 +1,5 @@
 {% set name = "dlux" %}
-{% set version = "0.14.1" %}
+{% set version = "0.14.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2d6f209768133bea77bbc86ec7bb9464817f00e28ff08adb3d1d009269d0ab72
+  sha256: ec34d14b908f262538d783a9b7d8655d35a0644e00cc6f6c7769437c84ba1065
 
 build:
   noarch: python
